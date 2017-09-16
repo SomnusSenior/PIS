@@ -25,6 +25,12 @@
 		//Comprueba el funcionamiento de Sumar2 en otros navegadores
 		// Es necesario utilizar toString() al concatenar la variable s
 		// dentro del alert?
+		/*
+			No es necesario, es independiente imprimir un número a imprimir un string; 
+			pasar a caracteres un número o no depende del uso que se le vaya a dar, 
+			como hacer una suma, se suman números, no caracteres, por lo que es necesario
+			en ese caso tener un número.
+		*/
 
 		//Función que devuelve un valor
 		function Restar(a,b){
@@ -33,12 +39,16 @@
 			return c;
 		}
 
+		/*
+			El alert para mostrar el resultado en pantalla se usa en el 'onclick'.
+		*/
+
 	</script>
 </head>
 <body>
 	<input type="button" value="Mostrar Mensaje" onclick="MostrarMsg();">
 	<input type="button" value="Mostrar Suma 10+20" onclick="Sumar(10,20);">
 	<input type="button" value="Mostrar Suma numero variable de argumentos" onclick="Sumar2(10,20,3,5,100);">
-	<input type="button" value="Mostrar Resta" onclick="alert('Resta='+Restar(10,20));">
+	<input type="button" value="Mostrar Resta" onclick="alert('Resta='+Restar(10,20));"> 
 </body>
 </html>

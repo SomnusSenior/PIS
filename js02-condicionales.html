@@ -3,9 +3,28 @@
 <head>
 	<meta charset="utf-8">
 	<script type="text/javascript">
-	var cierto=true;
+	var cierto=false;
+	/*
 	var asignada=cierto?'hola':'adios';
 	alert(asignada);
+	*/
+
+	
+	switch(cierto)
+	{	case true:
+			var asignada='hola';
+			alert(asignada);
+			break;
+
+		case false:
+			var asignada='adios';
+			alert(asignada);
+			break;
+		default:
+		}
+	
+
+
 	/*
 	switch(variable)
 	{	case 1: codigo

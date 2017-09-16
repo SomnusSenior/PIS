@@ -1,5 +1,2 @@
 # PIS
-Ideas para el proyecto:
-	Terreno disparejo
-	Obstáculos en el terreno
-	Coberturas
+El proyecto al final va a ser un "curve fever 2"
